@@ -1,0 +1,50 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+    --header-height: 60px;
+    --primary-color: #FFBC13;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* Kế thừa các thẻ có box-sizing */
+}
+html {
+    /* font-size: 100%; là 16px */
+    font-size: 62.5%; /*10px 1rem = 10px*/
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.grid { /* Dùng cho responsive */
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding: 0 16px; */
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap; /*set cho thẻ nằm trên xùng 1 hàng ngang */
+}  
+
+@keyframes growUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+

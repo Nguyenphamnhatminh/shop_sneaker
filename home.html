@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <!-- <link rel="stylesheet" href="./assets/responsive.css"> -->
+    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="grid">
+                <!-- Navbar -->
+                <nav class="header__navbar d-flex  justify-content-between align-items-center">
+                    <!-- <div class="header__menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div> -->
+                    <div class="header__logo d-flex align-items-center text-uppercase">
+                        <div class="header__menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <span>jordan</span>
+                    </div>
+                    <ul class="header__controls d-flex">
+                        <li class="header__controls-titles position-relative">
+                            <a href="#" class="header__controls-title">HOME</a> 
+                        </li>
+                        <li class="header__controls-titles position-relative">
+                            <a href="./about.html" class="header__controls-title">ABOUT</a> 
+                        </li>
+                        <li class="header__controls-titles position-relative header__controls-title--icons header__controls-title--child">
+                            <span class="header__controls-title">STORE</span>
+                            <i class="header__controls-title--icon position-absolute fa-solid fa-angle-down"></i>
+                            <div class="store__controls-title position-absolute">
+                                <ul class="store__controls-title--ul pl-0">
+                                    <li class="store__controls-title--li pl-4" class="text-decoration-none"><a href="./shop.html">SHOP</a></li>
+                                    <li class="store__controls-title--li pl-4" class="text-decoration-none"><a href="./products_detais.html">PRODUCTS DETAILS</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__controls-titles position-relative">
+                            <a href="./contact.html" class="header__controls-title">CONTACT</a>
+                        </li>
+                    </ul>
+                    <ul class="header__login d-flex">
+                        <!-- <li class="header__login-icons">
+                            <div class="header__login--search">
+                                <input class="header__login-input" type="text" placeholder="Search...">
+                                <a href="">
+                                    <i class="fa-solid fa-magnifying-glass header__login-icon--search"></i>
+                                </a>
+                            </div>
+                        </li> -->
+                        <li class="header__login-icons d-flex align-items-center">
+                            <a href="#" class="js-search">
+                                <i class="fa-solid fa-magnifying-glass header__login-icon--search header__login-icon"></i>
+                            </a>
+                        </li>
+                        <li class="header__login-icons d-flex align-items-center">
+                            <a href="#" class="js-login">
+                                <i class="fa-solid fa-user header__login-icon"></i>
+                            </a>
+                        </li>
+                        <li class="header__login-icons d-flex align-items-center">
+                            <a href="#" class="js-cart">
+                                <i class="fa-solid fa-cart-shopping header__login-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <!-- End -->
+            </div>
+        </header>
+        <!-- End -->
+        <!-- Container -->
+        <div class="container-fuild">
+            <div class="grid__full-width">
+                <div class="container__slider position-relative">
+
+                    <img class="container__slider-items" src="./assets/img/slider/slider (9).jpg" alt="">
+                    <div class="grid grid__silder">
+
+                        <div class="container__slider-title position-absolute">
+                            
+                            <h6 class="slider__title--h6">super deals</h6>
+                            <h1 class="slider__title--h1 text-uppercase">road</h1>
+                            <h1 class="slider__title--h1 text-uppercase">running</h1>
+                            <h1 class="slider__title--h1 text-uppercase"> editions</h1>
+                            <p class="slider__title--p ml-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                            </p>
+                            <div class="slider__tilte--btn d-block ml-5">
+                                <a class="slider__title--a d-flex justify-content-center align-items-center" role="button" href="./shop.html">
+                                    <span class="slider__title--span">SHOP NOW</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="grid container__order-box">
+                <div class="container__order mt-n5 position-absolute">
+                    <span class="container__order-span1"></span>
+                    <div class="container__order-method d-flex justify-content-between align-items-start float-left fa-hands-american-sign-language-interpreting">
+                        <div class="order__method-icons">
+                            <i class="order__method-icon fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="order__method-box">
+                            <h2 class="order__method-h2">ORDER ASSISTANCE</h2>
+                            <p class="order__method-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <span class="container__order-span2"></span>
+                    <div class="container__order-method d-flex justify-content-between align-items-start float-left fa-hands-american-sign-language-interpreting">
+                        <div class="order__method-icons">
+                            <i class="order__method-icon fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="order__method-box">
+                            <h2 class="order__method-h2">ORDER ASSISTANCE</h2>
+                            <p class="order__method-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <span class="container__order-span3"></span>
+                    <div class="container__order-method d-flex justify-content-between align-items-start float-left fa-hands-american-sign-language-interpreting">
+                        <div class="order__method-icons">
+                            <i class="order__method-icon fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="order__method-box">
+                            <h2 class="order__method-h2">ORDER ASSISTANCE</h2>
+                            <p class="order__method-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="container__order-method d-flex justify-content-between align-items-start float-left fa-hands-american-sign-language-interpreting">
+                        <div class="order__method-icons">
+                            <i class="order__method-icon fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="order__method-box">
+                            <h2 class="order__method-h2">ORDER ASSISTANCE</h2>
+                            <p class="order__method-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="container__collections">
+                    <div class="container__collections-header d-flex justify-content-around">
+                        <div class="container__collections-title">
+                            <h6 class="collections__tilte-h6">COLLECTION</h6>
+                            <h2 class="collections__tilte-h2">SPORTS COLLECTION</h2>
+                        </div>
+                        <div class="container__collections-btn d-flex justify-content-end align-items-center">
+                            <a href="" class="collections__btn-box d-flex justify-content-center align-items-center ">
+                                <span class="collections__btn-title">VIEW ALL COLLECTION</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="container__collections-img d-flex">
+                        <a href="./shop.html" class="container__collections-link">
+                            <img class="collections__img-item" src="./assets/img/collections/Screenshot 2023-03-13 152133.jpg" alt="">
+                            <img class="collections__img-item" src="./assets/img/collections/Screenshot 2023-03-13 152204.jpg" alt="">
+                            <img class="collections__img-item" src="./assets/img/collections/1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="footer__container d-flex">
+                    <div class="footer__container-left">
+                        <h1 class="footer__container-left--h1">JORDAN</h1>
+                        <p class="footer__container-left--p">Erat magna fringilla dolor tincidunt dictum varius.</p>
+                        <h2 class="footer__container-left--h2">JOIN OUR NEWSLETTER</h2>
+                        <p class="footer__container-left--p">Fermentum vitae et morbi vitae rutrum adipiscing</p>
+                        <div class="footer__container-left--form">
+                            <input class="footer__container-left--input" type="text" placeholder="Enter your email address">
+                            <button class="footer__container-left--btn" type="submit">
+                                <span>SUBSCRIBE NOW</span>
+                            </button>
+                        </div>
+                    </div>
+                    <span class="footer__container-left--span position-absolute"></span>
+                    <div class="footer__container-right">
+                        <div class="footer__container-right__box1 d-flex justify-content-around">
+                            <ul class="footer__container-right--items">
+                                <li style="font-weight: bold;" class="footer__container-right--item">PAGES</li>
+                                <li class="footer__container-right--item">New arrivals</li>
+                                <li class="footer__container-right--item">Categories</li>
+                                <li class="footer__container-right--item">Blog</li>
+                                <li class="footer__container-right--item">Contact</li>
+                            </ul>
+                            <ul class="footer__container-right--items">
+                                <li style="font-weight: bold;" class="footer__container-right--item">QUICK SHOP</li>
+                                <li class="footer__container-right--item">Shoes</li>
+                                <li class="footer__container-right--item">Shirts</li>
+                                <li class="footer__container-right--item">Accesories</li>
+                                <li class="footer__container-right--item">Sports Equipment</li>
+                            </ul>
+                            <ul class="footer__container-right--items">
+                                <li style="font-weight: bold;" class="footer__container-right--item">COMMUNITY</li>
+                                <li class="footer__container-right--item">My Account</li>
+                                <li class="footer__container-right--item">Terms And Conditions</li>
+                                <li class="footer__container-right--item">Privacy Policy</li>
+                            </ul>
+                        </div>
+                        <div class="footer__container-right__box2">
+                            <h2 class="footer__container-right--payment">PAYMENT METHOD</h2>
+                            <img class="footer__container-right--method"src="./assets/img/Payment method/Screenshot 2023-03-14 002956.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <span class="footer__container-bottom--span position-absolute"></span>
+                <div class="footer__container-bottom d-flex justify-content-between position-relative">
+                    <div class="footer__container-bottom--left d-flex align-items-center">Copyright© 2022 Champz - All Rights Reserved.</div>
+                    <div class="footer__container-bottom--right d-flex align-items-center justify-content-start">
+                        <a href="" class="footer__bottom-link d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-facebook-f footer__bottom-link--icon"></i>
+                        </a>
+                        <a href="" class="footer__bottom-link d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-twitter footer__bottom-link--icon"></i>
+                        </a>
+                        <a href="" class="footer__bottom-link d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-youtube footer__bottom-link--icon"></i>
+                        </a>
+                        <a href="" class="footer__bottom-link d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-instagram footer__bottom-link--icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End -->
+    </div>
+
+    <!-- Login -->
+    <div class="modal modal-login js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <div class="modal-header">
+                LOGIN
+            </div>
+            <div class="modal-body">
+                <label for="modal-quantity" class="modal-label">
+                    <i class="ti-user"></i>
+                    Username
+                </label>
+                <input id="modal-quantity" type="text" class="modal-input" placeholder="Type your username" >
+
+                <label for="modal-email" class="modal-label">
+                    <i class="ti-lock"></i>
+                     Password
+                </label>
+                <input id="modal-email" type="password" class="modal-input" placeholder="Type your password">
+
+                
+                <button class="buy-tickets js-login-cfm">
+                    LOGIN <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <div class="modal-footer">
+                <button class="modal-footer-btn modal-register-btn">Register</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register -->
+    <div class="modal modal-register js-modals">
+        <div class="modal-container js-modal-containers">
+            <div class="modal-close js-modal-closes">
+                <i class="ti-close"></i>
+            </div>
+            <div class="modal-header">
+                REGISTER
+            </div>
+            <div class="modal-body">
+                <label for="modal-quantity" class="modal-label">
+                    <i class="ti-user"></i>
+                    Username
+                </label>
+                <input id="modal-quantity" type="text" class="modal-input" placeholder="Type your username" >
+
+                <label for="modal-email" class="modal-label">
+                    <i class="ti-lock"></i>
+                     Password
+                </label>
+                <input id="modal-email" type="password" class="modal-input" placeholder="Type your password">
+
+                <label for="modal-email" class="modal-label">
+                    <i class="ti-lock"></i>
+                     Comfirm Password
+                </label>
+                <input id="modal-email" type="password" class="modal-input" placeholder="Type your comfirm password">
+
+                <label for="modal-email" class="modal-label">
+                    <i class="ti-email"></i>
+                     Email
+                </label>
+                <input id="modal-email" type="email" class="modal-input" placeholder="Type your email">
+
+
+                <button class="buy-tickets text-uppercase js-register-cfm">
+                    REGISTER <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <div class="modal-footer"> 
+                <button class="modal-footer-btn modal-login-btn">Login</button>
+            </div>
+        </div>
+    </div>
+    <!-- Cart -->
+    <div class="modal js-modal-cart">
+        <div class="modal-container-cart js-modal-container-cart">
+            <div class="modal__cart-close js-modal-close-cart">
+                <i class="ti-close"></i>
+            </div>
+            <div class="modal__cart-items">
+                No product in the cart.
+            </div>  
+        </div>
+    </div>
+    <!-- Search -->
+    <div class="modal js-modal-search">
+        <div class="modal-container-search js-modal-container-search">
+            <input type="text" placeholder="Search...">
+        </div>
+    </div>
+    <script src="./assets/main.js">
+    </script>
+</body>
+</html>

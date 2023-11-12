@@ -1,0 +1,121 @@
+/* BREAK PONIT */
+
+
+/* PC */
+@media (min-width: 64em) { /* 1024px = 64em */
+    .pc {
+        display: block;
+    }
+}
+
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) { /* 740px,1023px */
+    .tablet {
+        display: block;
+    }
+
+}
+
+/* TABLET AND MOBILE */
+
+@media (max-width: 63.9375em) { /* 1023px */
+    .header__controls {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        top: 60px;
+        padding: 0;
+    }
+
+    .header__menu {
+        display: block;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+}
+
+
+/* MOBILE */
+@media (max-width: 46.1875em) { /* 739px */
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        /* Giá trị mặc định */
+        position: initial; 
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #content .member-item {
+        margin-top: 15px;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    #content .members-list {
+        margin-top: 10px;
+
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #tour .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    #contact .contact-form {
+        margin-top: 16px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+
+}
